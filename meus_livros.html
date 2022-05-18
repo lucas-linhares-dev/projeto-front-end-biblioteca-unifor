@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Meus Livros - Livraria UNIFOR</title>
+    <style>
+
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .header-home{
+            width: 100%;
+            box-sizing: border-box;
+            overflow: auto;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(85, 36, 117);
+        }
+        .header-home h1{
+            display: inline-block;
+            position: absolute;
+            top:1.5%;
+            left: 10%;
+            color: aliceblue;
+        }
+
+        .header-home img{
+            width: 120px;
+            height: 100px;
+        }
+        .header-home nav ul{
+            padding: 0;
+            margin: 0;
+        }
+        .header-home nav ul li{
+            display: inline-block;
+            padding: 4% 1em;
+            font-size: 22px;
+        }
+        .header-home nav ul li a{
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: 400;
+            text-transform: uppercase;
+            padding: .5em .8em;
+            border: solid 1px white;
+            transition: all .2s linear;
+        }
+        .header-home nav ul li a:hover{
+            background-color: rgba(235, 232, 232,.2);
+        }
+        .header-home nav{
+            float: right;
+            margin-top: 1%;
+            margin-right: 10%;
+        }
+
+        main{
+            background-color: rgb(220, 206, 235);
+        }
+
+        h2{
+            color: rgb(53, 53, 53);
+            font-size: 30px;
+            margin-top:0;
+            padding-top: 1em;
+            text-align: center;
+            border-bottom: 2px solid black;
+            text-transform: uppercase;
+        }
+
+        .livros-section{
+            width: 80%;
+            margin: auto;
+            overflow: auto;
+        }
+
+        .livros-section ul li{
+            margin-top: 1%;
+            text-decoration: underline;
+        }
+        .livros-section ul{
+            margin-top:3%;
+        }
+
+        .livros-section .card{
+            margin-top: 5%;
+        }
+        .livros-section article{
+            width: 30%;
+            height: 450px;
+            float: left;
+            background-color: rgb(87, 126, 160);
+            margin-bottom: 5%;
+            position: relative;
+            
+        }
+        .livros-section article a{
+            position:absolute;
+            bottom:0;
+            text-align: center;
+            width: 100%;
+            height: 30px;
+            padding-top:1em;
+            background-color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+            font-weight: 700;
+            transition: all .2s linear;
+        }
+        .livros-section article a:hover{
+            background-color: rgb(44, 0, 61);
+            color: white;
+        }
+        .livros-section article:nth-child(3n-1){
+            margin-right:5%;
+            margin-left:5%;
+        }
+
+        footer{
+            color: black;
+            text-align: center;
+            height: 70px;
+            background-color: rgb(82, 82, 82);
+            color: white;
+        }
+
+        footer p{
+            margin-top:0;
+            padding-top: 1.5%;
+        }
+    </style>
+</head>
+<body>
+    <header class="header-home">
+        <a href="index.html"><img src="logo-unifor-facebook.jpg" alt="Logo UNIFOR"></a>
+        <a href="index.html">
+            <h1>Livraria UNIFOR</h1>
+        </a>
+        <nav>
+            <ul>
+                <li class="link-home"><a href="index.html" target="_blank">Home</a></li>
+                <li class="link-meuslivros"><a href="meus_livros.html" target="_blank">Meus livros</a></li>
+                <li><a href="login.html" target="_blank">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="livros-section">
+            <h2>Livros em aluguel</h2>
+            <ul>
+                <li>A data de devolução só pode ser requisitada na livraria física.</li>
+                <li>Data de devolução excedida ocasionará na cobrança da muta prevista.</li>
+                <li>A data de devolução só pode ser requisitada na livraria física.</li>
+            </ul>
+            <div class="card">
+                <article>
+                    <img src="" alt="">
+                    <a href="#">Devolução em: 04/03/2022</a>
+                </article>
+                <article>
+                    <img src="" alt="">
+                    <a href="#">Devolução em: 04/03/2022</a>
+                </article>
+                <article>
+                    <img src="" alt="">
+                    <a href="#">Devolução em: 04/03/2022</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="livros-section">
+            <h2>Livros reservados</h2>
+            <ul>
+                <li>A data de devolução só pode ser requisitada na livraria física.</li>
+                <li>Data de devolução excedida ocasionará na cobrança da muta prevista.</li>
+                <li>A data de devolução só pode ser requisitada na livraria física.</li>
+            </ul>
+            <div class="card">
+                <article>
+                    <img src="" alt="">
+                    <a href="#">Liberação em: 04/10/2022</a>
+                </article>
+                <article>
+                    <img src="" alt="">
+                    <a href="#">Liberação em: 04/10/2022</a>
+                </article>
+                <article>
+                    <img src="" alt="">
+                    <a href="#">Liberação em: 04/10/2022</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <p>Direitos reservados</p>
+    </footer>
+</body>
+</html>

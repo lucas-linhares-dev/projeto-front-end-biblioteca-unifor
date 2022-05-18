@@ -1,0 +1,179 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-home{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(85, 36, 117);
+}
+.header-home h1{
+    display: inline-block;
+    position: absolute;
+    top:1.5%;
+    left: 10%;
+    color: aliceblue;
+}
+
+.header-home img{
+    width: 120px;
+    height: 100px;
+}
+.header-home nav ul{
+    padding: 0;
+    margin: 0;
+}
+.header-home nav ul li{
+    display: inline-block;
+    padding: 4% 1em;
+    font-size: 22px;
+}
+.header-home nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: .5em .8em;
+    border: solid 1px white;
+    transition: all .2s linear;
+}
+.header-home nav ul li a:hover{
+    background-color: rgba(235, 232, 232,.2);
+}
+.header-home nav{
+    float: right;
+    margin-top: 1%;
+    margin-right: 10%;
+}
+
+main{
+    background-color: rgb(220, 206, 235);
+    overflow: auto;
+    position: relative;
+    height: 2500px;
+}
+
+.about-section{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.about-section p{
+    margin-bottom:5%;
+}
+.about-section h2{
+    color: rgb(53, 53, 53);
+    font-size: 30px;
+    margin-top:0;
+    padding-top: 1em;
+}
+.about-section p{
+    font-size: 20px;
+    letter-spacing: .5px;
+    line-height: 1.5;
+}
+
+.livros-section{
+    padding-top:10%;
+    width: 80%;
+    margin: auto;
+}
+.livros-section h2{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(53, 53, 53);
+    border-bottom: solid 2px black;
+}
+.livros-section .card{
+    margin-top: 10%;
+}
+.livros-section article{
+    width: 30%;
+    height: 450px;
+    float: left;
+    background-color: rgb(87, 126, 160);
+    margin-bottom: 5%;
+    position: relative;
+    
+}
+.livros-section article a{
+    position:absolute;
+    bottom:0;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    padding-top:1em;
+    background-color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+    transition: all .2s linear;
+}
+.livros-section article a:hover{
+    background-color: rgb(44, 0, 61);
+    color: white;
+}
+.livros-section article:nth-child(3n-1){
+    margin-right:5%;
+    margin-left:5%;
+}
+
+.livros-section input{
+    display: block;
+    margin: auto;
+    text-align: center;
+    height: 25px;
+    width: 300px;
+    border-radius: 30px;
+    border: rgb(150, 80, 156) solid 1px;
+}
+
+
+.button{
+    text-decoration: none;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: rgb(44, 0, 61);
+    text-align: center;
+    display: block;
+   color: white;
+   transition: all .2s linear;
+}
+.button:hover{
+    background-color: rgb(99, 0, 145);
+}
+
+.button-about{
+    width: 120px;
+    margin: auto;
+}
+
+.button-livros{
+    position: absolute;
+    bottom: 1%;
+    left: 45%;
+    right: 45%;
+}
+
+footer{
+    color: black;
+    text-align: center;
+    height: 70px;
+    background-color: rgb(82, 82, 82);
+    color: white;
+}
+
+footer p{
+    margin-top:0;
+    padding-top: 1.5%;
+}
+
+
+
+
+
